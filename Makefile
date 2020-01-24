@@ -25,7 +25,7 @@ uninstall:
 	python setup.py install --record files.txt && xargs rm -rf < files.txt
 
 run:
-	bp2
+	mycmd
 	python -m proxy1
 	
 

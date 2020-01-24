@@ -12,7 +12,7 @@ __license__ = 'BSD'
 
 if __name__ == '__main__':
     setup(
-        name='bestpractice',
+        name='modulename',
         version=__version__,
         author=__author__,
         author_email=__author_email__,
@@ -29,7 +29,7 @@ if __name__ == '__main__':
         install_requires=open('requirements.txt', 'r').read().strip().split(),
         entry_points={
             'console_scripts': [
-                'bp2 = proxy1:entry_point'
+                'mycmd = proxy1:entry_point'
             ]
         },
         classifiers=[
