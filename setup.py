@@ -25,11 +25,11 @@ if __name__ == '__main__':
         python_requires='>3.0.0',
         zip_safe=False,
         packages=find_packages(exclude=['tests', 'tests.*']),
-        package_data={'proxy': ['py.typed']},
+        # package_data={'rabbit': ['py.typed']},
         install_requires=open('requirements.txt', 'r').read().strip().split(),
         entry_points={
             'console_scripts': [
-                'mycmd = proxy1:entry_point'
+                'mycmd = rabbit:entry_point'
             ]
         },
         classifiers=[

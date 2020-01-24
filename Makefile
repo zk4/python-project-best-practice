@@ -26,7 +26,7 @@ uninstall:
 
 run:
 	mycmd
-	python -m proxy1
+	python -m rabbit
 	
 
 all: clean uninstall install run 
