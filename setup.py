@@ -12,6 +12,8 @@ __license__ = 'BSD'
 
 if __name__ == '__main__':
     setup(
+        # used in pip install and uninstall 
+        # pip install modulename
         name='modulename',
         version=__version__,
         author=__author__,
@@ -37,6 +39,6 @@ if __name__ == '__main__':
             'Environment :: Console'
         ],
         keywords=(
-            'http web server, proxy framework, web framework, Python3'
+            'best practice for python project'
         )
     )
