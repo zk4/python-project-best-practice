@@ -17,11 +17,14 @@ rm:
 test: rm
 	pytest -s -v  tests/
 
-coverage:
+coverage-html:
 	# --cov where you want to cover
 	#  tests  where your test code is 
 	pytest --cov=rabbit/ --cov-report=html tests/
 	open htmlcov/index.html
+
+coverage:
+	pytest --cov=rabbit/ tests/
 
 main:
 	python -m src.main

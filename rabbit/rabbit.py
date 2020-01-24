@@ -4,8 +4,10 @@ import logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
-def myfunc():
-    return "hello"
+import sys
+
+def feed(count):
+    return count * 2
 
 
 def main():
@@ -13,11 +15,14 @@ def main():
     pass
 
 def entry_point():
-    logger.info("foo")
-    logger.debug('foo')
-    logger.info('foo')
-    logger.warning('foo')
-    logger.error('foo')
-    logger.critical('foo')
+    # logger.info("rabbit ..")
+    # logger.debug('rabbit ..')
+    # logger.info('rabbit ..')
+    # logger.warning('rabbit ..')
+    # logger.error('rabbit ..')
+    # logger.critical('rabbit ..')
+    num = int(sys.argv[1])
+    carrots = feed(num)
+    print(carrots)
 
 

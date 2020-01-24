@@ -7,5 +7,5 @@ def test_run_openssl_command() -> None:
     assert 1 == 1
 
 
-def test_rabbit():
-    assert "hello" == rabbit.myfunc()
+def test_feed():
+    assert 4 == rabbit.feed2)

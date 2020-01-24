@@ -31,7 +31,7 @@ if __name__ == '__main__':
         install_requires=open('requirements.txt', 'r').read().strip().split(),
         entry_points={
             'console_scripts': [
-                'mycmd = rabbit:entry_point'
+                'rabbit = rabbit:entry_point'
             ]
         },
         classifiers=[
