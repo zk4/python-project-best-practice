@@ -11,13 +11,16 @@ rm:
 	rm -rf proxy.py.egg-info
 	rm -rf .pytest_cache
 	rm -rf .hypothesis
+	rm -rdf assets
 	
 
 test: rm
-	pytest -v tests/
+	pytest -s -v  tests/
 
 coverage:
-	pytest --cov=rabbit --cov-report=html tests/
+	# --cov where you want to cover
+	#  tests  where your test code is 
+	pytest --cov=rabbit/ --cov-report=html tests/
 	open htmlcov/index.html
 
 main:

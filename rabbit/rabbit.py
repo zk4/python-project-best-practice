@@ -4,6 +4,8 @@ import logging
 setup_logging()
 logger = logging.getLogger(__name__)
 
+def myfunc():
+    return "hello"
 
 
 def main():
