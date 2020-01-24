@@ -1,3 +1,0 @@
-[console_scripts]
-bp3 = proxy:entry_point
-

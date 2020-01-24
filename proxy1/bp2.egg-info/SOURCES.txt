@@ -1,9 +1,0 @@
-README.md
-setup.py
-src/bp2.egg-info/PKG-INFO
-src/bp2.egg-info/SOURCES.txt
-src/bp2.egg-info/dependency_links.txt
-src/bp2.egg-info/entry_points.txt
-src/bp2.egg-info/top_level.txt
-src/logx/__init__.py
-src/logx/setup_logging.py
